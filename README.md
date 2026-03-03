@@ -2,6 +2,14 @@
 
 A **free, open-source** Chrome extension for Meesho sellers. No account, no subscription, no backend server required — it works entirely by calling Meesho's public API directly.
 
+## 📦 Quick Download
+
+> **Repository:** https://github.com/PurbiaKapish/test
+>
+> **⬇️ Download ZIP directly:** https://github.com/PurbiaKapish/test/archive/refs/heads/main.zip
+>
+> Click the ZIP link above to download all files instantly — no account or git required.
+
 ## Features
 
 - **Product List Info Boxes** — See category, listing price, shipping charge, creation date, supplier state, quality score, and orders/day directly on Meesho search/category pages.
@@ -16,10 +24,11 @@ A **free, open-source** Chrome extension for Meesho sellers. No account, no subs
 
 ### Step 1 — Download the extension files
 
-1. On this GitHub page, click the green **`<> Code`** button (top-right of the file list).
-2. Click **`Download ZIP`**.
-3. Once downloaded, **right-click** the ZIP file and choose **Extract All** (Windows) or double-click to unzip (Mac).
-4. You should now have a folder ending in `-main` (e.g. `test-main`) containing all the extension files.
+**Direct ZIP download link:** https://github.com/PurbiaKapish/test/archive/refs/heads/main.zip
+
+1. Click the link above (or on the GitHub page click the green **`<> Code`** button → **`Download ZIP`**).
+2. Once downloaded, **right-click** the ZIP file and choose **Extract All** (Windows) or double-click to unzip (Mac).
+3. You should now have a folder ending in `-main` (e.g. `test-main`) containing all the extension files.
 
 > **Alternative:** If you have Git installed, run `git clone https://github.com/PurbiaKapish/test.git`
 
