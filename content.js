@@ -72,6 +72,21 @@
 
   const obs = new MutationObserver(() => { });
   obs.observe(document.documentElement, { childList: true, subtree: true });
+
+  // Trigger on initial page load (content script runs at document_start, so wait for DOM)
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', () => {
+      loadExtScript("product-list");
+      if (window.location.href.includes('/p/')) {
+        loadExtScript("product-details");
+      }
+    });
+  } else {
+    loadExtScript("product-list");
+    if (window.location.href.includes('/p/')) {
+      loadExtScript("product-details");
+    }
+  }
 })();
 
 function floatingButton() {
