@@ -97,7 +97,7 @@ function floatingButton() {
   fab.setAttribute("data-tooltip", "Seller Radar");
 
   const img = document.createElement("img");
-  img.src = chrome.runtime.getURL("/img/icon256.png");
+  img.src = chrome.runtime.getURL("img/icon256.png");
 
   Object.assign(img.style, {
     width: "70%",
@@ -316,7 +316,7 @@ function productList() {
     });
 
     // Load extension image correctly
-    logo.src = chrome.runtime.getURL("/img/icon256.png");
+    logo.src = chrome.runtime.getURL("img/icon256.png");
 
     box.appendChild(logo);
 
