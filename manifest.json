@@ -45,7 +45,7 @@
         "content.js"
       ],
       "css": [
-        "common.css"
+        "css/common.css"
       ],
       "run_at": "document_start"
     },
