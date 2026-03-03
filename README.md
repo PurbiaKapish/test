@@ -6,9 +6,10 @@ A **free, open-source** Chrome extension for Meesho sellers. No account, no subs
 
 > **Repository:** https://github.com/PurbiaKapish/test
 >
-> ### ⬇️ [Click here to Download ZIP](https://github.com/PurbiaKapish/test/archive/refs/heads/copilot/convert-extension-to-open-source.zip)
+> ### ⬇️ [Click here to Download ZIP](https://github.com/PurbiaKapish/test/releases/latest)
 >
-> Click the link above to download all extension files as a ZIP — no account or Git required.
+> Click the link above → scroll to **Assets** → download the `sellerradar-free-vX.X.X.zip` file.  
+> This ZIP is **flat** (files are directly inside the extracted folder) — no extra sub-folder to navigate into.
 
 ## Features
 
@@ -24,31 +25,24 @@ A **free, open-source** Chrome extension for Meesho sellers. No account, no subs
 
 ### Step 1 — Download the extension files
 
-### ⬇️ [Download ZIP](https://github.com/PurbiaKapish/test/archive/refs/heads/copilot/convert-extension-to-open-source.zip)
+### ⬇️ [Download from GitHub Releases](https://github.com/PurbiaKapish/test/releases/latest)
 
-1. Click the **Download ZIP** link above (or on the GitHub page click the green **`<> Code`** button → **`Download ZIP`**).
-2. Once downloaded, **right-click** the ZIP file and choose **Extract All** (Windows) or double-click to unzip (Mac).
-3. After extraction you will have a folder. **Open it** — inside you will find another folder with the same name. That inner folder is the one that contains `manifest.json` and all the extension files. **You need to select that inner folder in Step 2, not the outer one.**
+1. Click the link above to open the latest release page.
+2. Under **Assets**, click `sellerradar-free-vX.X.X.zip` to download it.
+3. Once downloaded, **right-click** the ZIP and choose **Extract All** (Windows) or double-click to unzip (Mac).
+4. You will get a single folder containing `manifest.json` and all the extension files — this is the folder you will select in Step 2.
 
-> **⚠️ Common mistake — "Manifest file is missing or unreadable":**  
-> GitHub ZIPs always contain an extra wrapper folder. When Windows extracts the ZIP it creates *yet another* outer folder, so you end up two levels deep:  
-> ```
-> <downloaded-folder>\          ← do NOT select this
->   └── <inner-folder>\         ← select THIS folder (it contains manifest.json)
->         ├── manifest.json
->         ├── content.js
->         └── ...
-> ```  
-> Chrome requires the folder you select to have `manifest.json` directly inside it.
+> **Why use the Releases ZIP instead of the green "Code → Download ZIP" button?**  
+> GitHub's branch ZIP wraps all files in a subfolder, causing Chrome to show "Manifest file is missing or unreadable" when you try to load it. The Releases ZIP packages files **flat** at the root, so it works directly.
 
-> **Alternative:** If you have Git installed, run `git clone https://github.com/PurbiaKapish/test.git` — the cloned folder has the correct flat structure with no nesting.
+> **Alternative:** If you have Git installed, run `git clone https://github.com/PurbiaKapish/test.git` — the cloned folder also has the correct flat structure.
 
 ### Step 2 — Load the extension into Chrome
 
 1. Open Chrome and paste `chrome://extensions/` in the address bar, then press **Enter**.
 2. Turn on **Developer mode** using the toggle in the **top-right corner**.
 3. Click the **Load unpacked** button that appears.
-4. In the file picker, navigate into the extracted ZIP folder and select the **inner** folder that directly contains `manifest.json` (see the warning in Step 1 above if you are not sure which folder to pick).
+4. In the file picker, select the folder you extracted in Step 1 (it should directly contain `manifest.json`).
 5. The **SellerRadar Free** extension will appear in your extensions list.
 
 ### Step 3 — Use it
