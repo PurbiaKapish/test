@@ -12,13 +12,30 @@ A **free, open-source** Chrome extension for Meesho sellers. No account, no subs
 - **SPA Navigation Support** — Works seamlessly with Meesho's single-page app navigation.
 - **Supplier Portal Link** — Adds a "Find on Meesho.com" button on supplier.meesho.com pages.
 
-## Installation (Load as Unpacked Extension)
+## Installation
 
-1. Download or clone this repository.
-2. Open Chrome and go to `chrome://extensions/`.
-3. Enable **Developer mode** (toggle in the top-right corner).
-4. Click **Load unpacked** and select the folder containing this repository.
-5. Navigate to [meesho.com](https://www.meesho.com) to use the extension.
+### Step 1 — Download the extension files
+
+1. On this GitHub page, click the green **`<> Code`** button (top-right of the file list).
+2. Click **`Download ZIP`**.
+3. Once downloaded, **right-click** the ZIP file and choose **Extract All** (Windows) or double-click to unzip (Mac).
+4. You should now have a folder ending in `-main` (e.g. `test-main`) containing all the extension files.
+
+> **Alternative:** If you have Git installed, run `git clone https://github.com/PurbiaKapish/test.git`
+
+### Step 2 — Load the extension into Chrome
+
+1. Open Chrome and paste `chrome://extensions/` in the address bar, then press **Enter**.
+2. Turn on **Developer mode** using the toggle in the **top-right corner**.
+3. Click the **Load unpacked** button that appears.
+4. In the file picker, select the folder you extracted in Step 1 — it must be the folder that directly contains `manifest.json` (not a parent folder).
+5. The **SellerRadar Free** extension will appear in your extensions list.
+
+### Step 3 — Use it
+
+1. Go to [meesho.com](https://www.meesho.com) and browse any product category.
+2. Product info boxes will appear automatically on product cards.
+3. Open any product page to see the full analytics panel.
 
 ## How It Works
 
