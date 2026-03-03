@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - copilot/convert-extension-to-open-source  # TODO: remove after PR is merged
     paths:
       - manifest.json
       - '*.js'
@@ -46,3 +47,4 @@ jobs:
             3. Open Chrome → `chrome://extensions/` → enable **Developer mode** → click **Load unpacked** → select the extracted folder.
           files: sellerradar-free-v${{ steps.version.outputs.version }}.zip
           make_latest: true
+          update_release: true
