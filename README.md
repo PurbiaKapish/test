@@ -6,7 +6,7 @@ A **free, open-source** Chrome extension for Meesho sellers. No account, no subs
 
 > **Repository:** https://github.com/PurbiaKapish/test
 >
-> ### ⬇️ [Click here to Download ZIP](https://github.com/PurbiaKapish/test/archive/refs/heads/main.zip)
+> ### ⬇️ [Click here to Download ZIP](https://github.com/PurbiaKapish/test/archive/refs/heads/copilot/convert-extension-to-open-source.zip)
 >
 > Click the link above to download all extension files as a ZIP — no account or Git required.
 
@@ -24,11 +24,11 @@ A **free, open-source** Chrome extension for Meesho sellers. No account, no subs
 
 ### Step 1 — Download the extension files
 
-### ⬇️ [Download ZIP](https://github.com/PurbiaKapish/test/archive/refs/heads/main.zip)
+### ⬇️ [Download ZIP](https://github.com/PurbiaKapish/test/archive/refs/heads/copilot/convert-extension-to-open-source.zip)
 
 1. Click the **Download ZIP** link above (or on the GitHub page click the green **`<> Code`** button → **`Download ZIP`**).
 2. Once downloaded, **right-click** the ZIP file and choose **Extract All** (Windows) or double-click to unzip (Mac).
-3. You should now have a folder ending in `-main` (e.g. `test-main`) containing all the extension files.
+3. You should now have a folder (e.g. `test-copilot-convert-extension-to-open-source`) containing all the extension files.
 
 > **Alternative:** If you have Git installed, run `git clone https://github.com/PurbiaKapish/test.git`
 
