@@ -6,9 +6,9 @@ A **free, open-source** Chrome extension for Meesho sellers. No account, no subs
 
 > **Repository:** https://github.com/PurbiaKapish/test
 >
-> **⬇️ Download ZIP directly:** https://github.com/PurbiaKapish/test/archive/refs/heads/main.zip
+> ### ⬇️ [Click here to Download ZIP](https://github.com/PurbiaKapish/test/archive/refs/heads/main.zip)
 >
-> Click the ZIP link above to download all files instantly — no account or git required.
+> Click the link above to download all extension files as a ZIP — no account or Git required.
 
 ## Features
 
@@ -24,9 +24,9 @@ A **free, open-source** Chrome extension for Meesho sellers. No account, no subs
 
 ### Step 1 — Download the extension files
 
-**Direct ZIP download link:** https://github.com/PurbiaKapish/test/archive/refs/heads/main.zip
+### ⬇️ [Download ZIP](https://github.com/PurbiaKapish/test/archive/refs/heads/main.zip)
 
-1. Click the link above (or on the GitHub page click the green **`<> Code`** button → **`Download ZIP`**).
+1. Click the **Download ZIP** link above (or on the GitHub page click the green **`<> Code`** button → **`Download ZIP`**).
 2. Once downloaded, **right-click** the ZIP file and choose **Extract All** (Windows) or double-click to unzip (Mac).
 3. You should now have a folder ending in `-main` (e.g. `test-main`) containing all the extension files.
 
@@ -61,8 +61,8 @@ A **free, open-source** Chrome extension for Meesho sellers. No account, no subs
 | `background.js` | Service worker — API calls, downloads, rate limiting |
 | `content.js` | Content script — UI overlays on meesho.com |
 | `supplier_content.js` | Content script — supplier.meesho.com integration |
-| `common.css` | Shared styles |
-| `icon256.png` | Extension icon |
+| `css/common.css` | Shared styles |
+| `img/icon256.png` | Extension icon |
 
 ## License
 
