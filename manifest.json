@@ -1,17 +1,14 @@
 {
-"update_url": "https://clients2.google.com/service/update2/crx",
-
   "manifest_version": 3,
-  "name": "SellerRadar - Meesho Seller Growth Extension",
-  "description": "Meesho Seller Growth Extension",
-  "version": "1.1.10",
+  "name": "SellerRadar Free - Meesho Seller Tool",
+  "description": "Free and open-source Meesho Seller Growth Extension",
+  "version": "2.0.0",
   "permissions": [
     "tabs",
     "webNavigation",
     "alarms",
     "activeTab",
-    "downloads",
-    "cookies"
+    "downloads"
   ],
   "host_permissions": [
     "https://www.meesho.com/*",
@@ -19,7 +16,7 @@
     "https://supplier.meesho.com/*"
   ],
   "icons": {
-    "128": "/img/icon256.png"
+    "128": "img/icon256.png"
   },
   "background": {
     "service_worker": "background.js"
@@ -30,7 +27,7 @@
   "web_accessible_resources": [
     {
       "resources": [
-        "/img/*"
+        "img/*"
       ],
       "matches": [
         "https://www.meesho.com/*",
@@ -48,7 +45,7 @@
         "content.js"
       ],
       "css": [
-        "/css/common.css"
+        "css/common.css"
       ],
       "run_at": "document_start"
     },
