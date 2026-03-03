@@ -16,7 +16,7 @@
     "https://supplier.meesho.com/*"
   ],
   "icons": {
-    "128": "/img/icon256.png"
+    "128": "img/icon256.png"
   },
   "background": {
     "service_worker": "background.js"
@@ -27,7 +27,7 @@
   "web_accessible_resources": [
     {
       "resources": [
-        "/img/*"
+        "img/*"
       ],
       "matches": [
         "https://www.meesho.com/*",
